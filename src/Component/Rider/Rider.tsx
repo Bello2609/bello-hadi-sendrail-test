@@ -79,8 +79,8 @@ const Rider = ()=>{
                             <Td>
                                 {
                                     prod.status === "assigned" ? 
-                                    <Box p={1} width="80px" height="25px" fontWeight="bold" display="flex" justifyContent="center" bgColor="rgba(230, 253, 238, 0.764706)" color="#079638">{prod.status}</Box>
-                                    : <Box p={1} width="80px" height="25px" fontWeight="bold" display="flex" justifyContent="center" bgColor="rgba(247, 216, 223, 0.772549)" color="#CD0B3A">{prod.status}</Box>
+                                    <Box p={1} width="90px" height="25px" fontWeight="bold" fontSize="sm" display="flex" alignItems="center" justifyContent="center" bgColor="rgba(230, 253, 238, 0.764706)" color="#079638">{prod.status}</Box>
+                                    : <Box p={1} width="90px" height="25px" fontWeight="bold" fontSize="sm" display="flex" alignItems="center" justifyContent="center" bgColor="rgba(247, 216, 223, 0.772549)" color="#CD0B3A">{prod.status}</Box>
                                 }
                             </Td>
                             <Td display="flex" alignItems="center">
